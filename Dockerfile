@@ -1,6 +1,5 @@
 FROM python:3.10-slim
 
-# Installer ffmpeg
 RUN apt-get update && apt-get install -y ffmpeg
 
 WORKDIR /app
